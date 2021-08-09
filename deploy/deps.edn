@@ -1,0 +1,10 @@
+
+{:deploy {:extra-deps {slipset/deps-deploy {:mvn/version "0.1.5"}}
+          :exec-fn deps-deploy.deps-deploy/deploy
+          :exec-args {:installer :remote
+                      :sign-releases? true
+                      :artifact "../jline/target/jline-3.20.1.jar"}}
+
+ :install {:extra-deps {slipset/deps-deploy {:mvn/version "0.1.5"}}
+           :exec-args {:installer :local
+                       :artifact "../jline/target/jline-3.20.1.jar"}}}
