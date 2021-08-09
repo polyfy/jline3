@@ -1,7 +1,9 @@
 
-- Run './build rebuild' from the root to build 'jline/target/jline-3.20.1.jar'.
+# Make sure you have built 'jline/target/jline-3.20.1.jar'
+# From the root of this repository, execute:
+./build rebuild
 
-# Deploy locally:
+# From this directory, install locally to ~/.m2/repository/polylith/jline/3.20.1:
 clojure -X:install
 
 # Deploy to Clojars (replace username + clojars-token):
