@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.polyfy</groupId>
+    <artifactId>jline</artifactId>
+    <version>3.20.1</version>
+    <name>jline</name>
+    <description>A tweaked version used to support the poly tool's shell command needs in the polylith repository.</description>
+    <url>https://github.com/polyfy/polylith</url>
+    <repositories>
+        <repository>
+            <id>clojars</id>
+            <url>https://repo.clojars.org/</url>
+        </repository>
+    </repositories>
+</project>

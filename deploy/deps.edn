@@ -1,0 +1,11 @@
+
+{:aliases {:deploy {:replace-deps {slipset/deps-deploy {:mvn/version "RELEASE"}}
+                    :exec-fn deps-deploy.deps-deploy/deploy
+                    :exec-args {:installer :remote
+                                :sign-releases? false
+                                :artifact "../jline/target/jline-3.20.1.jar"}}
+
+           :install {:replace-deps {slipset/deps-deploy {:mvn/version "RELEASE"}}
+                     :exec-fn deps-deploy.deps-deploy/deploy
+                     :exec-args {:installer :local
+                                 :artifact "../jline/target/jline-3.20.1.jar"}}}}
